@@ -535,7 +535,6 @@ Fix steps:
 3. Start-PSBuild -Clean
 `n
 "@
-        return
     }
 
     # set output options
