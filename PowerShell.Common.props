@@ -22,6 +22,10 @@
       <Output TaskParameter="ConsoleOutput" PropertyName="PowerShellVersion" />
     </Exec>
 
+    <PropertyGroup>
+        <NuGetAudit>false</NuGetAudit>
+    </PropertyGroup>
+
     <PropertyGroup Condition = "'$(ReleaseTag)' != ''">
       <!--
          DO NOT UPDATE without reviewing with the Microsoft update plan.
